@@ -1,0 +1,25 @@
+{
+  "name": "@chacki/eslint-plugin-require-extensions",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "author": "Chacki",
+  "type": "commonjs",
+  "license": "ISC",
+  "scripts": {
+    "fmt": "prettier --write '{*,**/*}.{ts,tsx,js,jsx,json}'",
+    "test": "eslint . --report-unused-disable-directives"
+  },
+  "exports": {
+    "require": "./index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": "*"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "prettier": "^3.5.3"
+  }
+}
