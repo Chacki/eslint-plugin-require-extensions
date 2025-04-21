@@ -1,6 +1,6 @@
 {
   "name": "@chacki/eslint-plugin-require-extensions",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./index.js",
   "author": "Chacki",
   "type": "commonjs",
