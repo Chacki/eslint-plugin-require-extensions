@@ -5,6 +5,7 @@
   "author": "Chacki",
   "type": "commonjs",
   "license": "ISC",
+  "keywords": ["eslint", "eslintplugin", "eslint-plugin", "esm", "extensions"],
   "scripts": {
     "fmt": "prettier --write '{*,**/*}.{ts,tsx,js,jsx,json}'",
     "test": "eslint . --report-unused-disable-directives"
