@@ -10,6 +10,10 @@
     "fmt": "prettier --write '{*,**/*}.{ts,tsx,js,jsx,json}'",
     "test": "eslint . --report-unused-disable-directives"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chacki/eslint-plugin-require-extensions"
+  },
   "exports": {
     "require": "./index.js"
   },
